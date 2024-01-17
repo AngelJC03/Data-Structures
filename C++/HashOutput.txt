@@ -18,6 +18,9 @@
 //we simply append the value to the end of the list, however for my implementation, I sort the 
 //list after each insertion.
 
+//My Hash table implementations allow for duplicate values, however this can be easily 
+//manipulated to only allow values to occur once within the table.
+
 Hash Table (Linear Probing): 
 0: 0
 1: 49
