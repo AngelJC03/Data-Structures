@@ -46,7 +46,7 @@ void DynArr::push_front(int n) {
     }
 
     for (int i = Size; i > 0; i--) {
-        array[i + 1] = array[i];
+        array[i] = array[i - 1];
     }
 
     array[0] = n;
