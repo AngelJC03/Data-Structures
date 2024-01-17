@@ -1,3 +1,6 @@
+//Binary search trees have three different traversal methods. For my output, I decided to print the 
+//tree in order, starting from the root, then checking the left, then right child. 
+
 Binary Search Tree: 
 root: 0
 0 nullptr, 7
@@ -12,6 +15,8 @@ root: 0
 73 58, 78
 78 nullptr, nullptr
 
+//We will nto remove the node 7.
+
 Binary Search Tree: 
 root: 0
 0 nullptr, 49
@@ -25,9 +30,14 @@ root: 0
 73 58, 78
 78 nullptr, nullptr
 
+//showcasing my search algorithm
+//60 and -1 are not in the tree, however 58 is.
+
 60 not found
 -1 not found
 Found 58
+
+//We are now going to insert a node holding the value -5.
 
 Binary Search Tree: 
 root: 0
@@ -43,6 +53,8 @@ root: 0
 73 58, 78
 78 nullptr, nullptr
 
+//We remove the root node to showcase the remove operation with two children, possibly the worst case
+
 Binary Search Tree: 
 root: 9
 -5 nullptr, nullptr
@@ -56,3 +68,4 @@ root: 9
 73 58, 78
 78 nullptr, nullptr
 
+//All our Binary search tree operations work, hooray!
