@@ -1,4 +1,3 @@
-
 #include "Hash.h"
 #include <iostream>
 #include <vector>
@@ -246,7 +245,15 @@ void HashTable::resize() {
 void HashTable::remove(int key) {
     if (mode != 2) {
         int index = hash(key);
-        hashTable[index] = 0;
+        if (hashTable[index] != key) {
+            for (int i = 0; i < this->currentSize; i++) {
+                if (hashTable[i] == key) {
+                    hashTable[i] = 0;
+                }
+            }
+        } else {    
+            hashTable[index] = 0;
+        }
         this->NumElements -= 1;
         return;
     } else {
