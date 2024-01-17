@@ -20,4 +20,4 @@ Python
 Javascript  
 C++  
   
-Each data structure will feature its designated main.cpp file. Within this file, all methods showcasing the algorithms' uses will be called. The output file will contain a standard output to help visualize the data structure after each method has been called.   
+Each data structure will feature its designated main.cpp file. Within this file, all methods showcasing the algorithms' uses will be called. The output file, labeled "data structure"output.txt, will contain a standard output to help visualize the data structure after each method has been called.   
