@@ -33,6 +33,7 @@ class List {
         node* getMid(node* head);
         node* mergeSort(node* head);
         node* merge(node* left, node* right);
+        node* getHead();
 
     public:
         List();
@@ -47,7 +48,6 @@ class List {
         int getsize();
         void print();
         void clear();
-        node* getHead();
         void sort();
 
 };
