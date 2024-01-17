@@ -12,7 +12,8 @@ Hash Table (three different ways of handling collision),
 Binary Search Tree,
 Red-Black Tree (balanced binary search tree),
 Weighted Graph,
-Unweighted graph.
+Unweighted graph  
+
 
 These data structures will be implemented in one of three languages to demonstrate my proficiency in each:
 
