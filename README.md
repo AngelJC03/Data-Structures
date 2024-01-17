@@ -12,12 +12,12 @@ Hash Table (three different ways of handling collision),
 Binary Search Tree,
 Red-Black Tree (balanced binary search tree),
 Weighted Graph,
-Unweighted graph,
+Unweighted graph.
 
 These data structures will be implemented in one of three languages to demonstrate my proficiency in each:
 
 Python,
 Javascript,
-C++,
+C++.
 
 Each data structure will feature its designated main.cpp file. Within this file, all methods showcasing the algorithms' uses will be called. The output file will contain a standard output to help visualize the data structure after each method has been called. 
