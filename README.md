@@ -2,7 +2,7 @@
 
 This repository is going to be dedicated to custom standard data structures. Within these data structures, I will feature an understanding of the algorithms for traversals, removals, searching, and inserting methods. I will also be featuring multiple sorting algorithms, such as bubble sort, merge sort, quick sort, etc.   
   
-My purpose in writing custom data structures is to strengthen my understanding in the algorithms used within the programs. This will help further develop my problem solving skills and approaches when I encounter one.   
+My purpose in writing custom data structures is to strengthen anyones understanding in the algorithms used within the programs. This will help further develop anyones problem solving skills and approaches when encountering a problem that requires a certain algorithm.   
   
 The following data structures will be implemented in this repo:  
   
