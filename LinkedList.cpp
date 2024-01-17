@@ -191,10 +191,6 @@ void List::clear() {
     }
 }
 
-node* List::getHead() {
-    return this->head;
-}
-
 void List::sort() {
     if (head == nullptr || head->next == nullptr) {
         return;
