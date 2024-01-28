@@ -8,7 +8,7 @@ The following data structures will be implemented in this repo:
   
 Dynamic Array  
 Linked List  
-Hash Table (three different ways of handling collision)  
+Hash Table (three different methods of handling collision)  
 Binary Search Tree  
 Red-Black Tree (balanced binary search tree)  
 Weighted Graph  
