@@ -40,9 +40,11 @@ Hash Table (Linear Probing):
 15: 78
 
 //we insert 60 into the tree, 60 % the size of the tree (16) is 12, but since 12 is not vacant, we 
-//scan the next indiced until we reach the end of the table and start at 0.
+//scan the next indices until we reach the end of the table and start at 0.
 
 //60 was inserted into 0 because 12 and every position after that was occupied.
+
+Table.insert(60);
 
 Hash Table (Linear Probing): 
 0: 60
@@ -63,6 +65,8 @@ Hash Table (Linear Probing):
 15: 78
 
 //we insert 40 to showcase the insert operation again.
+
+Table.insert(40);
 
 Hash Table (Linear Probing): 
 0: 60
@@ -86,11 +90,14 @@ Hash Table (Linear Probing):
 //index is occupied, we have encountered a collision and for this, we have to increase the 
 //collision counter and move to the next index.
 
+
 27
 
 //showcasing the search operations.
 
+table.search(40);
 40 has been found!
+table.search(1);
 1 is not in the table
 
 //when table.put(index, value) is used in my table, if the index we are putting our value in is
