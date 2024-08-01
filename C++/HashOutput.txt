@@ -90,7 +90,7 @@ Hash Table (Linear Probing):
 //index is occupied, we have encountered a collision and for this, we have to increase the 
 //collision counter and move to the next index.
 
-
+table.get_num_collisions();
 27
 
 //showcasing the search operations.
@@ -103,9 +103,9 @@ table.search(1);
 //when table.put(index, value) is used in my table, if the index we are putting our value in is
 //occupied, we replace the current value with the new one.
 
-Replacing 58 with 400
+//showcasing new table Replacing 58 with 400
 
-//showcasing new table.
+table.put(10, 400);
 
 Hash Table (Linear Probing): 
 0: 60
@@ -126,6 +126,8 @@ Hash Table (Linear Probing):
 15: 78
 
 //40 has been removed from this table.
+
+table.remove(40);
 
 Hash Table (Linear Probing): 
 0: 60
@@ -166,6 +168,8 @@ Hash Table (Double Hashing):
 14: 42
 15: 12
 
+table.insert(60);
+
 Hash Table (Double Hashing): 
 0: 60
 1: 0
@@ -183,6 +187,8 @@ Hash Table (Double Hashing):
 13: 3
 14: 42
 15: 12
+
+table.insert(40);
 
 Hash Table (Double Hashing): 
 0: 60
@@ -204,13 +210,19 @@ Hash Table (Double Hashing):
 
 //number of collisions:
 
+table.get_num_collisions();
 18
 
 //showcasing search operations:
 
+table.search(40);
 40 has been found!
+table.search(1);
 1 is not in the table
-Replacing 40 with 400
+
+//Replacing 40 with 400
+
+table.put(10, 400);
 
 Hash Table (Double Hashing): 
 0: 60
@@ -231,6 +243,8 @@ Hash Table (Double Hashing):
 15: 12
 
 //an instance of 40 has been removed fro the hash table.
+
+table.remove(40);
 
 Hash Table (Double Hashing): 
 0: 60
@@ -270,6 +284,8 @@ Hash Table (Separate Chaining):
 14: 78 
 15: 
 
+table.insert(60);
+
 Hash Table (Separate Chaining): 
 0: 16 
 1: 33 
@@ -287,6 +303,8 @@ Hash Table (Separate Chaining):
 13: 
 14: 78 
 15: 
+
+table.insert(40);
 
 Hash Table (Separate Chaining): 
 0: 16 
@@ -308,11 +326,14 @@ Hash Table (Separate Chaining):
 
 //Number of collisions so far:
 
+table.get_num_collisions();
 8
 
 //showcasing search operations
 
+table.search(40);
 40 has been found!
+table.search(1);
 1 is not in the table
 
 Hash Table (Separate Chaining): 
