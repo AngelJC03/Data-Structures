@@ -1,0 +1,316 @@
+Starting table (Linear Probing): 
+Hash Table (Linear Probing): 
+0: 0
+1: 49
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 7
+8: 72
+9: 73
+10: 58
+11: 23
+12: 44
+13: 9
+14: 30
+15: 78
+
+**table.insert(60)**
+Hash Table (Linear Probing): 
+0: 60
+1: 49
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 7
+8: 72
+9: 73
+10: 58
+11: 23
+12: 44
+13: 9
+14: 30
+15: 78
+
+**table.insert(40)**
+Hash Table (Linear Probing): 
+0: 60
+1: 49
+2: 40
+3: 0
+4: 0
+5: 0
+6: 0
+7: 7
+8: 72
+9: 73
+10: 58
+11: 23
+12: 44
+13: 9
+14: 30
+15: 78
+
+**table.get_num_collisions()**
+27
+
+**table.search(40)**
+40 has been found!
+
+**table.search(1)**
+1 is not in the table
+
+**table.put(10, 400)**
+Replacing 58 at index 10 with 400
+
+Hash Table (Linear Probing): 
+0: 60
+1: 49
+2: 40
+3: 0
+4: 0
+5: 0
+6: 0
+7: 7
+8: 72
+9: 73
+10: 400
+11: 23
+12: 44
+13: 9
+14: 30
+15: 78
+
+**table.remove(40)**
+Hash Table (Linear Probing): 
+0: 60
+1: 49
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 7
+8: 72
+9: 73
+10: 400
+11: 23
+12: 44
+13: 9
+14: 30
+15: 78
+
+Starting table (Double Hashing): 
+Hash Table (Double Hashing): 
+0: 0
+1: 0
+2: 65
+3: 0
+4: 27
+5: 0
+6: 29
+7: 0
+8: 40
+9: 87
+10: 40
+11: 0
+12: 92
+13: 3
+14: 42
+15: 12
+
+**table2.insert(60)**
+Hash Table (Double Hashing): 
+0: 60
+1: 0
+2: 65
+3: 0
+4: 27
+5: 0
+6: 29
+7: 0
+8: 40
+9: 87
+10: 40
+11: 0
+12: 92
+13: 3
+14: 42
+15: 12
+
+**table2.insert(40)**
+Hash Table (Double Hashing): 
+0: 60
+1: 0
+2: 65
+3: 0
+4: 27
+5: 0
+6: 29
+7: 0
+8: 40
+9: 87
+10: 40
+11: 40
+12: 92
+13: 3
+14: 42
+15: 12
+
+**table2.get_num_collisions()**
+18
+
+**table2.search(40)**
+40 has been found!
+
+**table2.search(1)**
+1 is not in the table
+
+**table2.put(10, 400)**
+Replacing 40 at index 10 with 400
+
+Hash Table (Double Hashing): 
+0: 60
+1: 0
+2: 65
+3: 0
+4: 27
+5: 0
+6: 29
+7: 0
+8: 40
+9: 87
+10: 400
+11: 40
+12: 92
+13: 3
+14: 42
+15: 12
+
+**table2.remove(40)**
+Hash Table (Double Hashing): 
+0: 60
+1: 0
+2: 65
+3: 0
+4: 27
+5: 0
+6: 29
+7: 0
+8: 0
+9: 87
+10: 400
+11: 40
+12: 92
+13: 3
+14: 42
+15: 12
+
+Starting table (Separate Chaining): 
+Hash Table (Separate Chaining): 
+0: 16 
+1: 33 
+2: 
+3: 3 35 99 
+4: 
+5: 69 
+6: 
+7: 
+8: 
+9: 9 57 
+10: 
+11: 
+12: 60 
+13: 
+14: 78 
+15: 
+
+**table3.insert(60)**
+Hash Table (Separate Chaining): 
+0: 16 
+1: 33 
+2: 
+3: 3 35 99 
+4: 
+5: 69 
+6: 
+7: 
+8: 
+9: 9 57 
+10: 
+11: 
+12: 60 60 
+13: 
+14: 78 
+15: 
+
+**table3.insert(40)**
+Hash Table (Separate Chaining): 
+0: 16 
+1: 33 
+2: 
+3: 3 35 99 
+4: 
+5: 69 
+6: 
+7: 
+8: 40 
+9: 9 57 
+10: 
+11: 
+12: 60 60 
+13: 
+14: 78 
+15: 
+
+**table3.get_num_collisions()**
+8
+
+**table3.search(40)**
+40 has been found!
+
+**table3.search(1)**
+1 is not in the table
+
+**table3.remove(40)**
+Hash Table (Separate Chaining): 
+0: 16 
+1: 33 
+2: 
+3: 3 35 99 
+4: 
+5: 69 
+6: 
+7: 
+8: 
+9: 9 57 
+10: 
+11: 
+12: 60 60 
+13: 
+14: 78 
+15: 
+
+**table3.remove(60)**, removes first instance of 60
+Hash Table (Separate Chaining): 
+0: 16 
+1: 33 
+2: 
+3: 3 35 99 
+4: 
+5: 69 
+6: 
+7: 
+8: 
+9: 9 57 
+10: 
+11: 
+12: 60 
+13: 
+14: 78 
+15: 
+

@@ -24,7 +24,7 @@ BST::BST(int value) {
     this->root = new Node(value);
 }
 
-BST::BST(vector<int> items) {
+BST::BST(std::vector<int> items) {
     this->root = new Node(items[0]);
     for (int i = 1; i < items.size(); i++) {
         insert(items[i]);
@@ -114,37 +114,37 @@ Node* BST::search(Node* root, int value) {
 }
 
 void BST::printPRE() {
-    cout << "Binary Search Tree: \n";
-    cout << "root: " << root->data << '\n';
+    std::cout << "Binary Search Tree: \n";
+    std::cout << "root: " << root->data << '\n';
     this->printPRE(root);
-    cout << '\n';
+    std::cout << '\n';
 }
 
 void BST::printPRE(Node* root) {
     if (!root) {
         return;
     }
-    cout << root->data << ": ";
+    std::cout << root->data << ": ";
     if (root->left) {
-        cout << root->left->data << ", ";
+        std::cout << root->left->data << ", ";
     } else {
-        cout << "nullptr, ";
+        std::cout << "nullptr, ";
     }
     if (root->right) {
-        cout << root->right->data;
+        std::cout << root->right->data;
     } else {
-        cout << "nullptr";
+        std::cout << "nullptr";
     }
-    cout << '\n';
+    std::cout << '\n';
     printPRE(root->left);
     printPRE(root->right);
 }
 
 void BST::printPOST() {
-    cout << "Binary Search Tree: \n";
-    cout << "root: " << root->data << '\n';
+    std::cout << "Binary Search Tree: \n";
+    std::cout << "root: " << root->data << '\n';
     this->printPOST(root);
-    cout << '\n';
+    std::cout << '\n';
 }
 
 void BST::printPOST(Node* root) {
@@ -153,25 +153,23 @@ void BST::printPOST(Node* root) {
     }
     printPOST(root->left);
     printPOST(root->right);
-    cout << root->data << " ";
+    std::cout << root->data << " ";
     if (root->left) {
-        cout << root->left->data << ", ";
+        std::cout << root->left->data << ", ";
     } else {
-        cout << "nullptr, ";
+        std::cout << "nullptr, ";
     }
     if (root->right) {
-        cout << root->right->data;
+        std::cout << root->right->data;
     } else {
-        cout << "nullptr";
+        std::cout << "nullptr";
     }
-    cout << '\n';
+    std::cout << '\n';
 }
 
 void BST::printIN() {
-    cout << "Binary Search Tree: \n";
-    cout << "root: " << root->data << '\n';
     this->printIN(root);
-    cout << '\n';
+    std::cout << '\n';
 }
 
 void BST::printIN(Node* root) {
@@ -179,17 +177,17 @@ void BST::printIN(Node* root) {
         return;
     }
     printIN(root->left);
-    cout << root->data << " ";
+    std::cout << "Root: " << root->data << ", ";
     if (root->left) {
-        cout << root->left->data << ", ";
+        std::cout << "left: " << root->left->data << ", ";
     } else {
-        cout << "nullptr, ";
+        std::cout << "left: nullptr, ";
     }
     if (root->right) {
-        cout << root->right->data;
+        std::cout << "right: " << root->right->data;
     } else {
-        cout << "nullptr";
+        std::cout << "right: nullptr";
     }
-    cout << '\n';
+    std::cout << '\n';
     printIN(root->right);
 }

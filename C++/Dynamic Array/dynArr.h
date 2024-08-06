@@ -4,7 +4,6 @@
 #include <array>
 #include <random>
 
-using namespace std;
 
 class DynArr {
 

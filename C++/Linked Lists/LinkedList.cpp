@@ -173,8 +173,6 @@ int List::getSize()
 
 void List::print() {
     node* current = head;
-
-    cout << "Linked List: \n";
     
     while (current != nullptr) {
         node* next = current->next;

@@ -2,8 +2,6 @@
 #include <vector>
 #include <list>
 
-using namespace std;
-
 class HashTable {
     private:
         int currentSize;

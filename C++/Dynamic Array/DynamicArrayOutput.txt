@@ -1,0 +1,27 @@
+Starting Array: 
+[7, 49, 73, 58, 30, 72, 44, 78, 23, 9]
+
+**array.removeIndex(4)**
+[7, 49, 73, 58, 72, 44, 78, 23, 9]
+
+**array.removeNum(23)**
+[7, 49, 73, 58, 72, 44, 78, 9]
+
+**array.push_front(10)**
+[10, 7, 49, 73, 58, 72, 44, 78, 9]
+
+**array.search(-1)**
+-1 not in array
+
+**array.search(58)**
+found 58
+
+**array.sum()**
+400
+
+**array.size()**
+9
+
+**array.sort(), array sorted using quicksort algorithm**
+[7, 9, 10, 44, 49, 58, 72, 73, 78]
+

@@ -1,11 +1,13 @@
 # Data-Structures
 
-This repository is going to be dedicated to custom standard data structures. Within these data structures, I will feature an understanding of the algorithms for traversals, removals, searching, and inserting methods. I will also be featuring multiple sorting algorithms, such as bubble sort, merge sort, quick sort, etc.   
-  
-My purpose in writing custom data structures is to strengthen anyones understanding in the algorithms used within the programs. This will help further develop anyones problem solving skills and approaches when encountering a problem that requires a certain algorithm.   
+This Data Structures repository is dedicated to demonstrate my implementation and understanding of some standard data structures. 
+
+This repository may be used as a study guide to anyone looking to deepen their understanding in data structures and can be used as an exmple implementation for an understanding of the algorithms used in these data structures. 
+
+The data structures implementation will feature four files, a header file, a source file, a "main" source file, and an output text file. The header file will be used to create the classes and methods for these data structures. The source file will be used to define the methods. The "main" source file will contain the "main" function which outputs the results into an output file typically named after the data structure it is demonstrating. 
   
 The following data structures will be implemented in this repo:  
-  
+
 Dynamic Array  
 Linked List  
 Hash Table (three different methods of handling collision)  
@@ -14,10 +16,8 @@ Red-Black Tree (balanced binary search tree)
 Weighted Graph  
 Unweighted graph  
   
-These data structures will be implemented in one of three languages to demonstrate my proficiency in each:  
-  
+The languages featured in this repository:
 Python  
 Javascript  
 C++  
-  
-Each data structure will feature its designated main.cpp file. Within this file, all methods showcasing the algorithms' uses will be called. The output file, labeled "data structure"output.txt, will contain a standard output to help visualize the data structure after each method has been called, as well as descriptions as to what operation has most recently been performed.  
+PHP

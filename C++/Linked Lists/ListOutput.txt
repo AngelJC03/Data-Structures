@@ -1,0 +1,33 @@
+Starting List: 
+7 next -> 49 next -> 73 next -> 58 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> null 
+
+**list.remove(7)**
+49 next -> 73 next -> 58 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> null 
+
+**list.remove(73)**
+49 next -> 58 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> null 
+
+**list.getSize()**
+7
+
+**list.insert(400, 9)**, 400 has been inserted at index 9
+49 next -> 58 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> 400 next -> null 
+
+**list.insert(13, 2)**, 13 has been inserted at index 2
+49 next -> 58 next -> 13 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> 400 next -> null 
+
+**list.append(11)**
+49 next -> 58 next -> 13 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> 400 next -> 11 next -> null 
+
+**list.prepend(3)**
+3 next -> 49 next -> 58 next -> 13 next -> 30 next -> 72 next -> 44 next -> 78 next -> 23 next -> 400 next -> 11 next -> null 
+
+**list.search(11)**
+11 has been found
+
+**list.search(1)**
+1 is not in the list
+
+**list.sort()**, list sorted using mergesort algorithm
+3 next -> 11 next -> 13 next -> 23 next -> 30 next -> 44 next -> 49 next -> 58 next -> 72 next -> 78 next -> 400 next -> null 
+

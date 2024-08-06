@@ -2,8 +2,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 class Node {
 
     private:
@@ -37,7 +35,7 @@ class BST {
 
         BST();
         BST(int value);
-        BST(vector<int> items);
+        BST(std::vector<int> items);
         ~BST();
         void insert(int value);
         void remove(int value);

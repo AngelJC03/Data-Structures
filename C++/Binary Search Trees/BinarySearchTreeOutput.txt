@@ -1,0 +1,60 @@
+Starting Tree: 
+Root: 0, left: nullptr, right: 7
+Root: 7, left: nullptr, right: 49
+Root: 9, left: nullptr, right: nullptr
+Root: 23, left: 9, right: nullptr
+Root: 30, left: 23, right: 44
+Root: 44, left: nullptr, right: nullptr
+Root: 49, left: 30, right: 73
+Root: 58, left: nullptr, right: 72
+Root: 72, left: nullptr, right: nullptr
+Root: 73, left: 58, right: 78
+Root: 78, left: nullptr, right: nullptr
+
+**tree.remove(7)**
+Root: 0, left: nullptr, right: 49
+Root: 9, left: nullptr, right: nullptr
+Root: 23, left: 9, right: nullptr
+Root: 30, left: 23, right: 44
+Root: 44, left: nullptr, right: nullptr
+Root: 49, left: 30, right: 73
+Root: 58, left: nullptr, right: 72
+Root: 72, left: nullptr, right: nullptr
+Root: 73, left: 58, right: 78
+Root: 78, left: nullptr, right: nullptr
+
+**tree.search(60)**
+60 not found
+
+**tree.search(-1)**
+-1 not found
+
+**tree.search(58)**
+Found 58
+
+
+**tree.insert(-5)**
+Root: -5, left: nullptr, right: nullptr
+Root: 0, left: -5, right: 49
+Root: 9, left: nullptr, right: nullptr
+Root: 23, left: 9, right: nullptr
+Root: 30, left: 23, right: 44
+Root: 44, left: nullptr, right: nullptr
+Root: 49, left: 30, right: 73
+Root: 58, left: nullptr, right: 72
+Root: 72, left: nullptr, right: nullptr
+Root: 73, left: 58, right: 78
+Root: 78, left: nullptr, right: nullptr
+
+**tree.remove(0)**
+Root: -5, left: nullptr, right: nullptr
+Root: 9, left: -5, right: 49
+Root: 23, left: nullptr, right: nullptr
+Root: 30, left: 23, right: 44
+Root: 44, left: nullptr, right: nullptr
+Root: 49, left: 30, right: 73
+Root: 58, left: nullptr, right: 72
+Root: 72, left: nullptr, right: nullptr
+Root: 73, left: 58, right: 78
+Root: 78, left: nullptr, right: nullptr
+

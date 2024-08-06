@@ -156,7 +156,7 @@ void HashTable::put(int key, int value) {
     if (mode != 2) {
         int index = hash(key);
         if (hashTable[index] != 0) {
-            cout << "Replacing " << hashTable[index] << " with " << value << '\n';
+            std::cout << "Replacing " << hashTable[index] << " at index " << index << " with " << value << '\n';
             hashTable[index] = value;
             return;
         } else {
@@ -272,26 +272,26 @@ void HashTable::remove(int key) {
 void HashTable::print()
 {
     if (mode == 2) {
-        cout << "Hash Table (Separate Chaining): \n";
+        std::cout << "Hash Table (Separate Chaining): \n";
         for (int i = 0; i < this->currentSize; i++) {
             std::cout << i << ": ";
             for (auto num : table[i]) {
-                cout << num << " ";
+                std::cout << num << " ";
             }
             std::cout << std::endl;
         }
     }
     if (mode == 0) {
-        cout << "Hash Table (Linear Probing): \n";
+        std::cout << "Hash Table (Linear Probing): \n";
         for (int i = 0; i < this->hashTable.size(); i++) {
             std::cout << i << ": " << this->hashTable[i] << '\n';
         } 
     } 
     if (mode == 1) {
-        cout << "Hash Table (Double Hashing): \n";
+        std::cout << "Hash Table (Double Hashing): \n";
         for (int i = 0; i < this->hashTable.size(); i++) {
             std::cout << i << ": " << this->hashTable[i] << '\n';
         } 
     }
-    cout << '\n';
+    std::cout << '\n';
 }

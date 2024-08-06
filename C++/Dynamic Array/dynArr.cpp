@@ -56,7 +56,7 @@ void DynArr::push_front(int n) {
 void DynArr::removeIndex(int index) {
 
     if (index >= this->Size) {
-        cout << "Index " << index << " does not exist, the current last index is " << size() - 1 << '\n';
+        std::cout << "Index " << index << " does not exist, the current last index is " << size() - 1 << '\n';
         return;
     }
 
@@ -76,7 +76,7 @@ void DynArr::removeIndex(int index) {
 void DynArr::removeNum(int n) {
 
     if (findIndex(n) == -1) {
-        cout << "Number is not in the array, hooray!" << '\n';
+        std::cout << "Number is not in the array, hooray!" << '\n';
         return;
     }
 
@@ -106,23 +106,21 @@ bool DynArr::search(int n) {
 
 void DynArr::print() {
 
-    cout << "Dynamic Array: \n";
-
-    cout << "[";
+    std::cout << "[";
 
     for (int i = 0; i < this->Size; i++) {
 
         if (i == this->Size - 1) {
-            cout << array[i];
+            std::cout << array[i];
             continue;
         }
 
-        cout << array[i] << ", ";
+        std::cout << array[i] << ", ";
     }
 
-    cout << "]" << '\n';
+    std::cout << "]" << '\n';
 
-    cout << '\n';
+    std::cout << '\n';
 }
 
 int DynArr::sum() {
