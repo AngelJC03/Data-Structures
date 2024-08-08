@@ -16,7 +16,7 @@ Red-Black Tree (balanced binary search tree)
 Weighted Graph  
 Unweighted graph  
   
-The languages featured in this repository:
+The languages featured in this repository: <br>
 Python  
 Javascript  
 C++  
