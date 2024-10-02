@@ -13,7 +13,7 @@ Linked List
 Hash Table (three different methods of handling collision)  
 Binary Search Tree  
 Red-Black Tree (balanced binary search tree)  
-Adjacency Matrix (Weighted, Directed Graph) <b>
+Adjacency Matrix (Weighted, Directed Graph) <br>
 Adjacency List (Weighted, Directed Graph)
   
 The languages featured in this repository: <br>
