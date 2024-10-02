@@ -11,8 +11,8 @@ The following data structures will be implemented in this repo:
 Dynamic Array  
 Linked List  
 Hash Table (three different methods of handling collision)  
-Binary Search Tree  
-Red-Black Tree (balanced binary search tree)  
+Binary Search Tree 
+Red-Black Tree (balanced binary search tree)  ***UNFINISHED***
 Adjacency Matrix (Weighted, Directed Graph) <br>
 Adjacency List (Weighted, Directed Graph)
   
