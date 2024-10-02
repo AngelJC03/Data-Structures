@@ -12,7 +12,7 @@ Dynamic Array
 Linked List  
 Hash Table (three different methods of handling collision)  
 Binary Search Tree 
-Red-Black Tree (balanced binary search tree)  ***UNFINISHED***
+Red-Black Tree (balanced binary search tree)  ***UNFINISHED*** <br>
 Adjacency Matrix (Weighted, Directed Graph) <br>
 Adjacency List (Weighted, Directed Graph)
   
