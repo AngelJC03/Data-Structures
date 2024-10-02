@@ -13,11 +13,10 @@ Linked List
 Hash Table (three different methods of handling collision)  
 Binary Search Tree  
 Red-Black Tree (balanced binary search tree)  
-Weighted Graph  
-Unweighted graph  
+Adjacency Matrix (Weighted, Directed Graph)
+Adjacency List (Weighted, Directed Graph)
   
 The languages featured in this repository: <br>
 Python  
 Javascript  
 C++  
-PHP
